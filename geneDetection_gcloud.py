@@ -92,8 +92,10 @@ if __name__ == '__main__':
     for filename in os.listdir(folder):
         filePath = os.path.join(folder,filename)
         gene = filename[:-4].split("_")[0]
+        
         #fullText = detect_document(filePath,gene)
         fullText = detect_text(filePath,gene)
+        
         if gene in fullText:
             print('PASSED - {} found in {}'.format(gene,filePath))
         else:

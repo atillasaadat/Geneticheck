@@ -1,5 +1,6 @@
 # Geneticheck - UofTHacks 2022
-Project for UofTHacks 2022
+
+## [Project for UofTHacks 2022](https://devpost.com/software/geneticheck)
 
 Initial Project challenge:
 

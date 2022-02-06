@@ -23,8 +23,14 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
-# Getting Started
+## Getting Started
 
+### Gene Detection in Test Report images
 To run the Genetic Report Image Detection, simply run `python geneDetection_gcloud.py`. This script outputs the detection PASS/FAIL of the Gene in the filename and creates an image copy with a bouding box of all Gene instances. This script has a **100%** detection accuracy for all sample images.
 
 An opensource alternative was also written, however does not acheive the 100% accuracy the Google Cloud method achieves: `python geneDetection_pytesseract.py`
+
+### Genetic report for given Gene Mutation
+To run, simply run `python generateGeneticReports.py` to generate Genetic Reports for all stored gene mutations. 
+
+Alternatively, specific genes can be inputted as list of arguments. eg. `python .\generateGeneticReports.py ACTC CFTR`

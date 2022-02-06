@@ -1,4 +1,4 @@
-# Geneticheck - UofTHacks2022
+# Geneticheck - UofTHacks 2022
 Project for UofTHacks 2022
 
 Initial Project challenge:

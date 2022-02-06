@@ -25,6 +25,6 @@ pip install -r requirements.txt
 ```
 # Getting Started
 
-To run the Genetic Report Image Detection, simply run `python geneDetection_gcloud.py`. This script outputs the detection PASS/FAIL of the Gene in the filename and creates an image copy with a bouding box of all Gene instances.
+To run the Genetic Report Image Detection, simply run `python geneDetection_gcloud.py`. This script outputs the detection PASS/FAIL of the Gene in the filename and creates an image copy with a bouding box of all Gene instances. This script has a **100%** detection accuracy for all sample images.
 
 An opensource alternative was also written, however does not acheive the 100% accuracy the Google Cloud method achieves: `python geneDetection_pytesseract.py`
